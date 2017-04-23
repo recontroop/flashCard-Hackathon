@@ -1,2 +1,0 @@
-# flaskMe
-Hackathon Project

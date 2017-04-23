@@ -1,7 +1,6 @@
 <html>
 	<header>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript" src="main.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<script>
 			// Get the modal
@@ -26,6 +25,8 @@
 			}
 		</script>
 	</header>
+
+	<label id="output"></label>
 
 	<nav id="link-nav">
 		<ul><a href="index.html">Home</a></ul>
@@ -69,15 +70,15 @@
 		  <!-- Modal Content -->
 		  <form class="modal-content animate" action="/action_page.php">
 		    <div class="imgcontainer">
-		      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+		      <img src="" alt="Avatar" class="avatar">
 		    </div>
 
 		    <div class="container">
 		      <label><b>Username</b></label>
-		      <input type="text" placeholder="Enter Username" name="uname" required>
+		      <input id= "userName" type="text" placeholder="Enter Username" name="uname" required>
 
 		      <label><b>Password</b></label>
-		      <input type="password" placeholder="Enter Password" name="psw" required>
+		      <input id="password" type="password" placeholder="Enter Password" name="psw" required>
 
 		      <button type="submit">Login</button>
 		      <input type="checkbox" checked="checked"> Remember me

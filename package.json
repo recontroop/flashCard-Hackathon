@@ -1,8 +1,8 @@
 {
-  "name": "flshme",
+  "name": "flashme",
   "version": "1.0.0",
-  "description": "Hackathon Project",
-  "main": "main.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/recontroop/flashMe/issues"
   },
-  "homepage": "https://github.com/recontroop/flashMe#readme",
-  "dependencies": {
-    "mongo": "^0.1.0"
-  }
+  "homepage": "https://github.com/recontroop/flashMe#readme"
 }
