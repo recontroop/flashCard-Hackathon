@@ -1,0 +1,22 @@
+{
+  "name": "flshme",
+  "version": "1.0.0",
+  "description": "Hackathon Project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recontroop/flashMe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recontroop/flashMe/issues"
+  },
+  "homepage": "https://github.com/recontroop/flashMe#readme",
+  "dependencies": {
+    "mongo": "^0.1.0"
+  }
+}
