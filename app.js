@@ -17,7 +17,7 @@ MongoClient.connect(url, function(err, db) {
 });
 //////////////////////////////////////////////////////////////
 function output(){
-	document.getElementsByName('output')[0].value= out;
+	document.getElementsByName('output').innerHTML = "test" 
 }
 
 //////////////////////////////////////////////////////////////
