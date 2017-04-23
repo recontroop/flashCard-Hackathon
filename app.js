@@ -20,5 +20,3 @@ MongoClient.connect(url, function(err, db) {
   var userName = document.getElementById("userName")
   var password = document.getElementById("password")
 */
-
-recon
